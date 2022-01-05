@@ -1,0 +1,8 @@
+apiVersion: {{ apiVersion }}
+kind: Function
+metadata:
+  name: {{ name }}
+  namespace: {{ namespace }}
+spec:
+  containers:
+  - image: {{ container_image }}
