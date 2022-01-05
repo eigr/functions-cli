@@ -35,6 +35,7 @@ enum Commands {
     /// Delete Eigr Function
     Delete { name: String },
 
+    /// Expose function to outside the cluster
     Expose {
         /// name of function
         name: String,

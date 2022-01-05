@@ -8,4 +8,29 @@ The Alpine ibex is a mountain goat instantly recognizable by the male's large sc
 TODO
 
 ## Usage
-TODO
+
+```shell
+sleipnir @ pop-os functions-cli main 
+└─ $ (k8s: kind-default) 🚀 ▶ ibex 
+ibex 0.1.0
+Adriano Santos <sleipnir@bsd.com.br>, Weslei Pereira <wesleimsr@gmail.com>
+Eigr Functions CLI
+
+USAGE:
+    ibex [OPTIONS] <SUBCOMMAND>
+
+OPTIONS:
+    -h, --help                     Print help information
+    -n, --namespace <NAMESPACE>    Set the namespace for the command [default: eigr-functions]
+    -V, --version                  Print version information
+
+SUBCOMMANDS:
+    create     Create Eigr Function
+    delete     Delete Eigr Function
+    expose     Expose function to outside the cluster
+    get        List Eigr Functions
+    help       Print this message or the help of the given subcommand(s)
+    install    Install Eigr k8s Operator
+sleipnir @ pop-os functions-cli main 
+└─ $ (k8s: kind-default) 🚀 ▶ 
+```
